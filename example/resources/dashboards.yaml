@@ -6,4 +6,4 @@ providers:
   disableDeletion: false
   editable: true
   options:
-    path: /dashboards/repo/dashboards/dev
+    path: /dashboards/repo
