@@ -43,8 +43,8 @@ spec:
         - name: grafana
           image: grafana/grafana:7.0.0-ubuntu@sha256:d4fe3f23dcf9e106419eed2573607fa09e5160475ac4e9ba9021f8f79073efba
           env:
-            - name: GF_SERVER_ROOT_URL
-              value: https://demo-grafana.com
+            # - name: GF_SERVER_ROOT_URL
+            #   value: https://demo-grafana.com
             - name: GF_PATHS_DATA
               value: /data
             - name: GF_PATHS_PLUGINS
