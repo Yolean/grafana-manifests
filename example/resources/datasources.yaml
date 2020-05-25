@@ -1,9 +1,9 @@
 apiVersion: 1
 datasources:
-- name: Prometheus main
+- name: Prometheus now
   type: prometheus
   #access: proxy
-  url: http://prometheus-main:9090
+  url: http://prometheus-now:9090
   basicAuth: false
   isDefault: true
   version: 1
